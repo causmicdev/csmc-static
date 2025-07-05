@@ -48,7 +48,7 @@ const eventsData = [
       "/sites/default/files/inline-images/acme4.JPG",
       "/sites/default/files/inline-images/acme5.JPG",
       "/sites/default/files/inline-images/acme6.JPG",
-      "/sites/default/files/inline-images/acme7.JPG",
+      "/sites/default/files/inline-images/acme7.jpg",
     ],
     description:
       "GNE'S ACME 2025, a highly anticipated and prestigious Inter-College Multi-Event Competition, stands as a testament to excellence and innovation. Proudly presented by the esteemed Causmic Club under the auspices of Department of Applied Sciences at Guru Nanak Dev Engineering College, Ludhiana.",
@@ -172,7 +172,7 @@ const eventsData = [
     date: "06/03/2024",
     thumbnail: "/sites/default/files/inline-images/acme-24.jpg",
     images: [
-      "/sites/default/files/inline-images/acme-24.JPG",
+      "/sites/default/files/inline-images/acme-24.jpg",
       "/sites/default/files/inline-images/acme-24-0.JPG",
       "/sites/default/files/inline-images/acme-24-1.JPG",
       "/sites/default/files/inline-images/acme-24-2.JPG",
@@ -215,9 +215,9 @@ const eventsData = [
       "/sites/default/files/inline-images/apex-23-8.JPG",
       "/sites/default/files/inline-images/apex-23-9.JPG",
       "/sites/default/files/inline-images/apex-23-10.JPG",
-      "/sites/default/files/inline-images/apex-23-11.JPG",
-      "/sites/default/files/inline-images/apex-23-12.JPG",
-      "/sites/default/files/inline-images/apex-23-13.JPG",
+      "/sites/default/files/inline-images/apex-23-11.jpg",
+      "/sites/default/files/inline-images/apex-23-12.jpg",
+      "/sites/default/files/inline-images/apex-23-13.jpg",
     ],
     description:
       "An Inter-School Multi-Event Competition, Dedicated to the founders of Nankana Sahib Education Trust was organised by Causmic Club in Guru Nanak Dev Engg College, Ludhiana on 20th October, 2023. Around 30 schools across the city participated in events like Folk Dance, Folk Singing, Graffiti Odyssey, Clay Canvas, Culinary Innovators, The Logical Shuffle, Assumption’s Edge, Media Spotlight, Web Wizards, Digital Identity etc.",
@@ -255,6 +255,21 @@ const eventsData = [
       "Learn the basics of web development and create your own website! Each session is one hour long, so you'll have plenty of time to learn and ask questions.  You will get to learn about HTML and CSS - the two core technologies used in web development. You will also get hands-on experience by creating your own website and deploying it on a live server using GitHub. Perfect for beginners who want to learn the fundamentals of web development.",
   },
   {
+    title: "Painting Competition",
+    subtitle: "A celebration of art and creativity",
+    date: "21/04/2023",
+    thumbnail: "/sites/default/files/inline-images/pc.png",
+    images: [
+      "/sites/default/files/inline-images/pc.png",
+      "/sites/default/files/inline-images/pc0.png",
+      "/sites/default/files/inline-images/pc1.png",
+      "/sites/default/files/inline-images/pc2.png",
+    ],
+    description:
+      "A painting competition organized by teh causmic club to foster creative minds and promote art on the ocassion of Earth Day",
+    post: "https://www.instagram.com/p/CrQbH4GhoOp/",
+  },
+  {
     title: "Game Engineers",
     subtitle: "A Game Development Workshop",
     date: "20/03/2023",
@@ -265,7 +280,7 @@ const eventsData = [
       "/sites/default/files/inline-images/ge1.jpeg",
       "/sites/default/files/inline-images/ge2.jpeg",
       "/sites/default/files/inline-images/ge3.jpeg",
-      "/sites/default/files/inline-images/ge4.jpeg",
+      // "/sites/default/files/inline-images/ge4.jpeg",
       "/sites/default/files/inline-images/ge5.jpeg",
     ],
     description:
@@ -279,7 +294,7 @@ const eventsData = [
     thumbnail: "/sites/default/files/inline-images/acme-23.jpg",
     images: [
       "/sites/default/files/inline-images/acme-23.jpg",
-      "/sites/default/files/inline-images/acme-23-1.JPG",
+      "/sites/default/files/inline-images/acme-23-1.jpg",
       "/sites/default/files/inline-images/acme-23-2.JPG",
       "/sites/default/files/inline-images/acme-23-3.JPG",
       "/sites/default/files/inline-images/acme-23-4.JPG",
@@ -301,12 +316,12 @@ const eventsData = [
     thumbnail: "/sites/default/files/inline-images/fc.jpg",
     images: [
       "/sites/default/files/inline-images/fc.jpg",
-      "/sites/default/files/inline-images/fc0.jpeg",
-      "/sites/default/files/inline-images/fc1.jpeg",
-      "/sites/default/files/inline-images/fc2.jpeg",
-      "/sites/default/files/inline-images/fc3.jpeg",
-      "/sites/default/files/inline-images/fc4.jpeg",
-      "/sites/default/files/inline-images/fc5.jpeg",
+      "/sites/default/files/inline-images/fc0.jpg",
+      "/sites/default/files/inline-images/fc1.jpg",
+      "/sites/default/files/inline-images/fc2.jpg",
+      "/sites/default/files/inline-images/fc3.jpg",
+      "/sites/default/files/inline-images/fc4.jpg",
+      "/sites/default/files/inline-images/fc5.jpg",
     ],
     description:
       "Causmic club presents Fast & Curious, a quiz for those who are quick and smart. Team up with your buddies and register through the link/QR code. Don't miss out on the opportunity only 100 entries are allowed!",
@@ -345,7 +360,7 @@ function createModal(event, modalId) {
     .map(
       (imgSrc) => `
             <div class="gallery-image">
-                <img src="${imgSrc}" alt="${event.title}" />
+                <img src="${imgSrc}" alt="${event.title}" class="object-fit-contain p-2" />
             </div>
         `,
     )
