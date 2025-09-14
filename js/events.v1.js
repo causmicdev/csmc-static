@@ -1,6 +1,26 @@
 // Events data array
 const eventsData = [
   {
+    title: "Induction 2025",
+    subtitle: "Student Induction Program",
+    date: "28/07/2025",
+    thumbnail: "/sites/default/files/inline-images/bannerInd25.png",
+    images: [
+      "/sites/default/files/inline-images/9A7A0633_0.jpg",
+      "/sites/default/files/inline-images/9A7A0642.jpg",
+      "/sites/default/files/inline-images/9A7A0654.jpg",
+      "/sites/default/files/inline-images/9A7A0672.jpg",
+      "/sites/default/files/inline-images/IMG_5456.JPG",
+      "/sites/default/files/inline-images/IMG_5546.JPG",
+      "/sites/default/files/inline-images/IMG_5588.JPG",
+      "/sites/default/files/inline-images/IMG_5630.JPG",
+      "/sites/default/files/inline-images/IMG_6165.JPG",
+    ],
+    description:
+      "First-year students embarked on their new journey with excitement as the induction program unfolded. The days featured engaging sessions in the auditorium, where students connected with experts in varied fields, followed by interactive peer-to-peer classes and knowledge-sharing activities. Campus visits gave them valuable insights into their new learning environment, while English and Mathematics proficiency tests helped evaluate and strengthen their academic foundation. Guided by our dedicated faculty, the orientation seamlessly blended learning, interaction, and exploration, ensuring a smooth transition into college life.",
+    post: "https://www.instagram.com/p/DMu_PYQzoKK/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+  },
+  {
     title: "Trip to Amritsar",
     subtitle: "Club Trip to Saada Pind",
     date: "15/5/2025",
