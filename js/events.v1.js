@@ -347,6 +347,24 @@ const eventsData = [
       "Causmic club presents Fast & Curious, a quiz for those who are quick and smart. Team up with your buddies and register through the link/QR code. Don't miss out on the opportunity only 100 entries are allowed!",
     post: "https://www.instagram.com/p/Cltd2ERhU4x/",
   },
+  {
+    title: "GNE'S APEX 2022",
+    subtitle:
+      "An epic inter-school multi-event competition with massive cash prizes",
+    date: "08/04/2022",
+    thumbnail: "/sites/default/files/inline-images/bannerApex22.jpeg",
+    images: [
+      "/sites/default/files/inline-images/apex22_1.jpeg",
+      "/sites/default/files/inline-images/apex22_2.jpeg",
+      "/sites/default/files/inline-images/apex22_3.jpeg",
+      "/sites/default/files/inline-images/apex22_4.jpeg",
+      "/sites/default/files/inline-images/apex22_5.jpeg",
+      "/sites/default/files/inline-images/apex22_6.jpeg",
+      "/sites/default/files/inline-images/apex22_7.jpeg",
+    ],
+    description:
+      "GNE's ever popular inter-school fest featuring multiple competitions and a blooming and radiant fair. The most epic inter-school clash, where champions are forged and legends are born! 💫 Gather your squad, unleash your potential, and claim glory!💪🏻✨",
+  },
 ];
 // Generate event card HTML with template string
 function createEventCard(event, modalId) {
